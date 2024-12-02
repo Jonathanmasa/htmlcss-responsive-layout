@@ -7,6 +7,8 @@
 
 body {
     background-color: lightgray;
+    font-family: Montserrat, Helvetica Neue , sans-serif;
+    font-size: 12px;
 
 }
 
@@ -14,7 +16,16 @@ body {
 
 header {
     background-color: white;
-    height: 80px;
+    color: orange;
+    /* debug */
+    /* height: 80px; */
+    
+}
+
+header h1 {
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-size: 50px;
 }
 
 /* corpo pagina principale */
@@ -23,9 +34,83 @@ header {
     width: 80%;
     margin: 30px auto;
     /* debug */
-    min-height: 400px;
-    background-color: aquamarine;
+    /* min-height: 400px;
+    background-color: aquamarine; */
 
+}
+
+.genere {
+    font-size: 10px;
+    color: grey;
+    
+}
+
+.container-corpo h2 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.text-plus {
+    display: none;
+}
+
+.text-plus-social {
+    display: none;
+}
+
+.how-make {
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.ricetta-container {
+    margin: 20px 20px;
+
+}
+
+.how-make img {
+    width: 100%;
+
+
+}
+
+.how-make h3 {
+    margin: 20px 20px;
+}
+
+.evidenza {
+    font-weight: bold;
+}
+
+ul li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+.social {
+    font-size: 10px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social li {
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px;
+    
+
+}
+
+.social li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.banner img {
+    width: 100%;
+    display: none;
 }
 
 /* barra footer */
@@ -37,6 +122,77 @@ footer {
 }
 
 .barra-footer {
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    header h1 {
+        text-align: start;
+
+    }
+
+    .banner img {
+        display: inline;
+    }
+
+    .ricetta-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .ricetta-pt1 {
+        width: 30%;
+        
+        
+    }
+
+    .ricetta-pt2 {
+        width: 30%;
+        
+        
+    }
+
+    .ricetta-pt3 {
+        width: 30%;
+        
+    }
+
+    
     
 }
 
+
+@media screen and (min-width:992px) {
+
+    .text-plus-social {
+        display: inline;
+    }
+
+    .social li {
+        border-radius: 9999px;
+   
+    }
+
+    .banner img {
+        display: inline;
+    }
+    
+    .how-make {
+        display: flex;
+    }
+    
+
+    .how-make img {
+        width: 90%;
+    }
+
+    .ricetta-container {
+        display: block;
+        width: 10%;
+        
+    }
+}
