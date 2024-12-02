@@ -1,0 +1,42 @@
+/* regole generali */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+
+}
+
+/* intestazione pagina */
+
+header {
+    background-color: white;
+    height: 80px;
+}
+
+/* corpo pagina principale */
+
+.container-corpo {
+    width: 80%;
+    margin: 30px auto;
+    /* debug */
+    min-height: 400px;
+    background-color: aquamarine;
+
+}
+
+/* barra footer */
+
+footer {
+    min-height: 100px;
+    /* debug */
+    background-color: blueviolet;
+}
+
+.barra-footer {
+    
+}
+
