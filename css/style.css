@@ -75,7 +75,7 @@ header h1 {
 }
 
 .how-make h3 {
-    margin: 20px 20px;
+    margin-bottom: 20px;
 }
 
 .evidenza {
@@ -184,31 +184,27 @@ footer {
         display: inline;
     }
 
-    .ricetta-container {
+
+
+    .ricetta {
+        width: 100%;
         display: flex;
         justify-content: space-between;
-    }
-
-
-
-    .ricetta-pt1 {
-        width: 30%;
         
         
     }
 
     .ricetta-pt2 {
-        width: 30%;
+        gap: 25%;
         
         
     }
 
-    .ricetta-pt3 {
-        width: 30%;
-        
-    }
+    
 
     .tiramisu img {
+        margin-right: 10px;
+        margin-bottom: 10px;
         width: 40%;
         float: left;
     }
@@ -241,13 +237,11 @@ footer {
    
     }
 
-    .banner img {
-        display: inline;
-    }
+
     
     .how-make {
         display: flex;
-        justify-content:flex-start;
+        
     }
     
 
@@ -255,11 +249,19 @@ footer {
         width: 90%;
     }
 
+    .how-make {
+        padding-bottom: 0;
+    }
+
+
     .ricetta-container {
         width: 10%;
-        display: flex;
-        flex-direction: column;
+    
         
+    }
+
+    .ricetta {
+        display: block;
         
     }
     .tiramisu::after {
