@@ -199,6 +199,7 @@ footer {
     }
 
     .ricetta-pt2 {
+        justify-content: flex-start;
         gap: 25%;
         
         
@@ -251,19 +252,21 @@ footer {
         display: flex;
         
     }
-    
-
-    .how-make img {
-        width: 90%;
-    }
 
     .how-make {
         padding-bottom: 0;
     }
+    
+
+    .container-img {
+        width: 70%;
+    }
+
+    
 
 
     .ricetta-container {
-        width: 10%;
+        width: 30%;
     
         
     }
