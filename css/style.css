@@ -269,6 +269,10 @@ footer {
     
     }
 
+    .ricetta {
+        display: block;
+    }
+
 
     
     .tiramisu::after {
