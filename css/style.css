@@ -189,21 +189,20 @@ footer {
     }
 
 
+    .ricetta-container li {
+        width: 30%;
+        flex-wrap: wrap;
+    }
+
+
 
     .ricetta {
-        width: 100%;
         display: flex;
-        justify-content: space-between;
         
-        
+    
     }
 
-    .ricetta-pt2 {
-        justify-content: flex-start;
-        gap: 25%;
-        
-        
-    }
+    
 
     
 
@@ -268,13 +267,10 @@ footer {
     .ricetta-container {
         width: 30%;
     
-        
     }
 
-    .ricetta {
-        display: block;
-        
-    }
+
+    
     .tiramisu::after {
         display: table;
         content: "";
