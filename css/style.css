@@ -182,6 +182,8 @@ footer {
 
     }
 
+    
+
     .banner img {
         display: inline;
     }
@@ -226,6 +228,15 @@ footer {
 
 
     .text-plus-social {
+        display: inline;
+    }
+
+    .container-corpo h2 {
+        display: inline;
+
+    }
+
+    .text-plus {
         display: inline;
     }
 
